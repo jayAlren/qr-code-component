@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/*
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+*/
+
+* {
+	font-family: 'Outfit', sans-serif;
+	font-weight: 400;
+}
+
+body {
+	background-color: hsl(212, 45%, 89%); /* Light gray */
+}
+
+.container {
+	text-align: center;
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	height: 430px;
+	width: 280px;
+	background-color: hsl(0, 0%, 100%); /* White */
+	padding: 15px;
+	border: none;
+	border-radius: 20px;
+}
+
+.qr-code {
+	height: 60%;
+	width: 100%;
+	object-fit: cover;
+	border: none;
+	border-radius: 10px;
+	margin: 0 0 5% 0;
+}
+
+.header-Information {
+	font-size: 22px;
+	font-weight: 700;
+	color: hsl(218, 44%, 22%); /* Dark blue */
+	margin: 0 0 5% 0;
+}
+
+.body-Information {
+	font-size: 16px;
+	color: hsl(220, 15%, 55%); /* Grayish blue */
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	left: 0;
+	bottom: 0;
+	padding: 10px 0;
+	border-top: 1px dashed black;
+	text-align: center;
+	font-size: 12px;
+}
+footer a {
+	color: black;
+	font-size: inherit;
+}
+footer a:hover {
+	color: hsl(220, 15%, 55%); /* Grayish blue */
+}
+
